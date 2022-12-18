@@ -1,0 +1,5 @@
+starter\Patients\GetAllPatients.class
+starter\CucumberTestSuite.class
+starter\Patients\AddPatient.class
+starter\stepdefinitions\Patients\AddPatientStep.class
+starter\stepdefinitions\Patients\GetAllPatienSteps.class
