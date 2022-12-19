@@ -12,18 +12,18 @@ public class AddPatient {
     public void setUrlCreatePatient(){
         url = "http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients";
 
-        token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzE0MDk3NjgsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.0FjJGfK70nQpaBQlik5JIPDtTadtSexB9n77u9D8BqQ";
+        token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzE0MTAzMTYsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.WpB_Ns1bHOKL1TBS_YaHfgBxpGHyiGq79IuJfnLFOCU";
 
     }
 
     public void setBodyAddPatient(){
-        body.put("nik", "1287654312");
-        body.put("name", "yosh lah");
+        body.put("nik", "3124586790");
+        body.put("name", "Yare yare");
         body.put("gender", 1);
         body.put("address", "Tangerang");
-        body.put("phone", "088834215489");
+        body.put("phone", "080885760798");
         body.put("marital_status", false);
-        body.put("birth_date", "02-01-2005");
+        body.put("birth_date", "01-01-2002");
         body.put("religion_id", 1);
     }
 
